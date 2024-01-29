@@ -11,9 +11,6 @@ import java.util.List;
 @RequestMapping("/v1/app")
 public class Driver {
 
-    public Driver() {
-    }
-
     @GetMapping("/employees")
     public List<Employee> getEmployee() {
         List<Employee> employees = new ArrayList<>();
